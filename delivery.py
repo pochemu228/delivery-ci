@@ -15,7 +15,7 @@ def calculate_delivery(subtotal, express=False):
     elif 1000 <= subtotal <= 4999:
         cost = 150
     else: # от 5000
-        cost = 150 # было 0
+        cost = 0
 
     # Надбавка за экспресс-доставку
     if express:
