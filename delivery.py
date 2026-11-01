@@ -1,5 +1,5 @@
 def calculate_delivery(subtotal, express=False):
-    # Проверка типов: bool является подклассом int, поэтому проверяем строго
+    # Проверка типов: bool является подклассом int
     if type(subtotal) is not int:
         raise TypeError("subtotal должен быть целым числом")
     if type(express) is not bool:
